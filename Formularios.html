@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <h1>Formularios</h1>
+    <form action="/datos" method="get">
+      <!-- Campo de Texto -->
+      <label for="texto">Campo de Texto</label>
+      <input
+        type="text"
+        id="texto"
+        name="texto"
+        placeholder="Ingrese texto"
+      /><br /><br />
+      <!-- campo de tipo password -->
+      <label for="clave">Campo de Contraseña</label>
+      <input
+        type="password"
+        id="clave"
+        name="clave"
+        placeholder="Ingrese Contraseña"
+      />
+      <br /><br />
+      <!-- campo de correo -->
+      <label for="correo">Campo de correo</label>
+      <input
+        type="email"
+        id="correo"
+        name="correo"
+        placeholder="Ingrese Correo"
+      /><br />
+      <br />
+      <!-- campo de telefono -->
+      <label for="telefono">Campo telefonico</label>
+      <input
+        type="tel"
+        id="telefono"
+        name="telefono"
+        minlength="5"
+        maxlength="10"
+      /><br /><br />
+      <!-- Campo para URL -->
+      <label for="rutas">Campo para URL</label>
+      <input type="url" id="rutas" name="rutas" /><br /><br />
+      <label for="numero">campo para numeros</label>
+      <input type="number" id="numero" name="numero" /><br /><br />
+      <!-- campo de tipo rango -->
+      <label for="rango">campo de tipo rango</label>
+      <input type="range" id="rango" name="rango" /><br /><br />
+      <!-- campo para fechas -->
+      <label for="fecha">campo de tipo fecha</label>
+      <input type="date" id="fecha" name="fecha" /><br /><br />
+      <!-- campo de tipo hora -->
+      <label for="hora">campo de tipo hora </label>
+      <input type="time" id="hora" name="hora" /><br /><br />
+      <!-- campo de fecha y hora -->
+      <label for="datetime">campo datetime </label>
+      <input type="datetime-local" id="datetime" name="datetime" /><br /><br />
+      <!-- Campo de calendario -->
+      <label for="mes">campo para mes </label>
+      <input type="month" id="mes" name="mes" /><br /><br />
+      <!-- campo para la semana -->
+      <label for="semana">campo para la semana </label>
+      <input type="week" id="semana" name="semana" /><br /><br />
+      <!-- campo para colores -->
+      <label for="colores">campo para colores</label>
+      <input type="color" id="colores" name="colores" /><br /><br />
+      <!-- campo para seleccionar -->
+      <label for="seleccion">campo para seleccionar</label>
+      <input type="checkbox" id="seleccion" name="seleccion" /><br /><br />
+      <!-- campo para de tipo archivo -->
+      <label for="archivo">campo de tipo archivo</label>
+      <input type="file" id="archivo" name="archivo" /><br /><br />
+    </form>
+  </body>
+</html>
