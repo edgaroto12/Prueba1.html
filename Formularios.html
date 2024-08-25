@@ -7,7 +7,7 @@
   </head>
   <body>
     <h1>Formularios</h1>
-    <form action="/datos" method="get">
+    <form action="/datos" method="post">
       <!-- Campo de Texto -->
       <label for="texto">Campo de Texto</label>
       <input
@@ -75,6 +75,15 @@
       <!-- campo para de tipo archivo -->
       <label for="archivo">campo de tipo archivo</label>
       <input type="file" id="archivo" name="archivo" /><br /><br />
+      <!-- boton enviar -->
+      <input type="submit" value="Enviar"><br>
+      <!-- boton reiniciar -->
+      <input type="reset" value="Reiniciar"><br>
+      <!-- boton con imagen para enviar -->
+      <input type="image" src=""alt="Enviar" width="90" height="90"><br>
+      <button type="submit"> Mi boton
+        <img src="" alt="">
+      </button>
     </form>
   </body>
 </html>
