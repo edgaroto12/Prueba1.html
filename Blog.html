@@ -3,12 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=Blo, initial-scale=1.0" />
+    <meta name="author" content="Edgar">
+    <meta name="descripcion" content="Mi pagina web">
+    <meta name="keywords" content="programacion, web">
     <title>Blog</title>
   </head>
   <body>
     <header>
-      <h1>Informacion Personal</h1>
-      <fieldset>
+      <h1 style="color: brown; text-align: center;">Informacion Personal</h1>
+      <fieldset >
         <legend>Nombre</legend>
         <h3>Edgar Gomez</h3>
         <legend>Redes Sociales</legend>
@@ -44,8 +47,8 @@
     </header>
 
     <section>
-      <fieldset>
-        <legend>Pasatiempo 1</legend>
+      <fieldset id="Ps1" style="color: rgb(21, 199, 59); text-align: justify; border: 2px solid;">
+        <legend style="color: blueviolet;">Pasatiempo 1</legend>
         <article>
           <h2>Pasatiempo 1</h2>
           <p>Descripcion del Pasatiempo</p>
@@ -58,15 +61,17 @@
           <p>LIMITACION DEL PASATIEMPO</p>
         </article>
       </fieldset>
-      <fieldset>
+      <fieldset id="Ps2">
         <legend>Pasatiempo 2</legend>
         <article>
           <h2>Pasatiempo 2</h2>
           <p>Descripcion del Pasatiempo</p>
-          <img
+          <div style="text-align: center;">
+            <img 
             src="recursos/Imagenes/montando bicicleta.webp"
             alt="Montando Bici"
           />
+          </div>
           <p>LIMITACION DEL PASATIEMPO</p>
         </article>
       </fieldset>
@@ -170,7 +175,7 @@
     </section>
     <br />
     <br />
-    <footer>
+    <footer id="Pie">
       <fieldset>
         <a href="mailto:edgago@carroloco.com">Contactame</a>
         <a href="Tel:555555555">Contacto</a>
@@ -215,7 +220,10 @@
 
           <button type="submit">Enviar Mensaje</button>
         </form>
+        <a href="#Ps1">pasatiempo 1</a>
+        <a href="#Ps2">pasatiempo 2</a>
         </fieldset>
+        
         
       </section>
     </footer>
